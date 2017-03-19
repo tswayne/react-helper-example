@@ -1,0 +1,20 @@
+{
+  "name": "react-helper-example",
+  "version": "1.0.0",
+  "description": "Example mvc app using react-helper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/supervisor -w src,views,index.js -e js,handlebars,css index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tswayne",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jsonfile": "^2.4.0",
+    "react-helper": "^1.0.9"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
