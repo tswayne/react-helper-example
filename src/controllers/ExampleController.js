@@ -1,8 +1,7 @@
 const FishModel = require('../models/Fish');
 const ReactHelper = require('react-helper');
-const Fish = require('../client/components/Fish');
+//const Fish = require('../client/components/Fish');
 
-//const module = require('../../public/javascript/bundle')
 module.exports.index = (req, res) => {
   const FishPage = ReactHelper.renderComponent('Fish', {fish: FishModel.find()})
   res.render('example/index', {FishPage})
@@ -18,6 +17,7 @@ module.exports.noReact = (req, res) => {
 }
 
 module.exports.serverRender = (req, res) => {
-  const FishPage = ReactHelper.renderComponent(Fish, {fish: FishModel.find()})
-  res.render('example/server-render', {FishPage})
+
+ // const FishPage = ReactHelper.renderComponent(Fish, {fish: FishModel.find()})
+  res.render('example/server-render', {})
 }
