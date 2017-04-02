@@ -2,6 +2,7 @@ const express     = require('express');
 const controllers = require('./controllers');
 const router = express.Router();
 
+router.get('/express-react-helper', controllers.ExpressReactHelperExampleController.index);
 router.get('/example', controllers.ExampleController.index);
 router.get('/example/partial', controllers.ExampleController.reactAsPartial);
 router.get('/example/no-react', controllers.ExampleController.noReact);

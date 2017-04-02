@@ -1,2 +1,2 @@
 # react-helper-example
-Example node mvc app generated with and using [react-helper](https://github.com/tswayne/react-helper)
+Example node mvc app generated with and using [react-helper](https://github.com/tswayne/react-helper) and [express-react-helper](https://github.com/tswayne/react-helper)

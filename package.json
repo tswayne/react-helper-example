@@ -14,7 +14,7 @@
   "dependencies": {
     "express": "^4.15.2",
     "express-handlebars": "^3.0.0",
-    "jsonfile": "^2.4.0",
+    "express-react-helper": "^1.0.1",
     "react-helper": "^1.0.9"
   },
   "devDependencies": {
