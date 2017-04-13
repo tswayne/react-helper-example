@@ -4,7 +4,7 @@
   "description": "Example mvc app using react-helper",
   "main": "index.js",
   "scripts": {
-    "start": "supervisor -w src,views,index.js -e js,handlebars,css index.js",
+    "start": "supervisor -w src,index.js -e js,handlebars,css index.js",
     "build-dev": "webpack",
     "build-watch": "webpack -w",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,8 +14,8 @@
   "dependencies": {
     "express": "^4.15.2",
     "express-handlebars": "^3.0.0",
-    "express-react-helper": "^1.0.1",
-    "react-helper": "^1.0.9"
+    "express-react-helper": "^1.0.2",
+    "react-helper": "2.1.0"
   },
   "devDependencies": {
     "babel-loader": "^6.4.1",
